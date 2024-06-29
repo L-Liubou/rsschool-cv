@@ -1,4 +1,4 @@
-# LIUBOU LEVITSKAYA <img src="img/icon.jpg" alt="icon" style="display:inline; width:75px; height:40px;"> 
+# LIUBOU LEVITSKAYA <img src="img/icon.svg" alt="icon" style="display:inline; width:75px; height:40px;"> 
 ### CONTACTS
 * __Location:__ Minsk, Belarus
 * __Phone:__ +375 25 618 38 09
