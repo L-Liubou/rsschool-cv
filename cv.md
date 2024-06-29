@@ -3,7 +3,8 @@
 ### CONTACTS
 * __Location:__ Minsk, Belarus
 * __Phone:__ +375 25 618 38 09
-* __Discord:__ Liubou Levitskaya(@[L-Liubou](https://github.com/L-Liubou))
+* __Discord:__ Liubou Levitskaya(@L-Liubou)
+* __GitHub:__ [L-Liubou](https://github.com/L-Liubou)
 * __Email:__ <lyubasaraeva@gmail.com>
 
 ************
