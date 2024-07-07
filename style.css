@@ -32,3 +32,23 @@ a {
     max-width: 1440px;
     padding: 0 45px;
 }
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: flex-end;
+    gap: 80px;
+    padding: 30px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu-link:hover,
+.contact-link:hover,
+.course-link {
+    color: #d8005f;
+}
