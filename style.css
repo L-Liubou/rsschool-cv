@@ -52,3 +52,26 @@ a {
 .course-link {
     color: #d8005f;
 }
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+}
+
+.profile-title {
+    font-size: 90px;
+    line-height: 1.2;
+}
+
+.profile-role {
+    font-size: 30px;
+    color: #d8005f;
+}
+
+.profile-photo {
+    width: 550px;
+    height: 410px;
+}
