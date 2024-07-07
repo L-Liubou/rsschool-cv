@@ -123,3 +123,27 @@ a {
 .contacts-list > li {
     margin: 7px 0;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.footer-icon {
+    width: 30px;
+    height: 27px;
+    transition: transform 0.3s;
+}
+
+.footer-logo {
+    width: 60px;
+    height: 25px;
+    transition: transform 0.3s;
+}
+
+.footer-icon:hover,
+.footer-logo:hover {
+    transform: scale(1.2);
+}
