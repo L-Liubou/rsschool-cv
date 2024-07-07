@@ -2,4 +2,148 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+html {
+    height: 100%;
+    background-color: #000001;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 200;
+}
+
+a {
+    transition-duration: 0.3s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1440px;
+    padding: 0 45px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: flex-end;
+    gap: 80px;
+    padding: 30px;
+}
+
+.menu-link,
+.contact-link {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu-link:hover,
+.contact-link:hover,
+.course-link {
+    color: #d8005f;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+}
+
+.profile-title {
+    font-size: 90px;
+    line-height: 1.2;
+}
+
+.profile-role {
+    font-size: 30px;
+    color: #d8005f;
+}
+
+.profile-photo {
+    width: 550px;
+    height: 410px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.section {
+    width: 38%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section-title {
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.skills-list,
+.contacts-list,
+.languages-list,
+.education-list {
+    list-style-type: none;
+}
+
+.code-block {
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.skills-list > li > img,
+.contacts-list > li > a > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.skills-list > li,
+.contacts-list > li {
+    margin: 7px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.footer-icon {
+    width: 30px;
+    height: 27px;
+    transition: transform 0.3s;
+}
+
+.footer-logo {
+    width: 60px;
+    height: 25px;
+    transition: transform 0.3s;
+}
+
+.footer-icon:hover,
+.footer-logo:hover {
+    transform: scale(1.2);
 }
