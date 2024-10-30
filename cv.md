@@ -1,49 +1,50 @@
-# LIUBOU LEVITSKAYA <img src="img/icon.svg" alt="icon" style="display:inline; width:75px; height:40px;">
+# LIUBOU LEVITSKAYA <img src="img/code.svg" height="25" width="35">
 
 ### CONTACTS
 * __Location:__ Minsk, Belarus
-* __Phone:__ +375 25 618 38 09
 * __Discord:__ Liubou Levitskaya(@L-Liubou)
 * __GitHub:__ [L-Liubou](https://github.com/L-Liubou)
-* __Email:__ <lyubasaraeva@gmail.com>
+* __Telegram:__ [liubou_levitskaya](https://t.me/liubou_levitskaya)
 
 ************
 
 ### ABOUT ME
-A highly motivated and adaptable person with a background in medicine and six years of experience in pharmacy. After realizing my passion lies elsewhere, I transitioned to frontend development to harness my creative potential.   
-I am committed to continuous learning and skill development, and I am particularly drawn to remote work opportunities. I would like to contribute to projects related to medicine or cosmetology.
+As an aspiring frontend developer, my goal is to translate ideas and requirements into well-thought-out, easily recognizable interfaces. Working at the intersection of creativity and technology inspires me, where programming, design, and user experience come together to create user-friendly and attractive products. I strive to find the balance between aesthetics, functionality, and simplicity, ensuring that every element of interaction is meaningful and effective.
 
 ***********  
 
 ### MY SKILLS
-* HTML5
-* CSS3
-* JavaScript (Basics)
-* Git/GitHub
 
-\* _all in progress_
+<img src="img/html5.svg" width="120" height="80" alt="HTML icon"> <img src="img/css3.svg" width="120" height="80" alt="CSS icon"> <img src="img/js.svg" width="120" height="86" alt="Javascript icon"> <img src="img/git.svg" width="120" height="90" alt="GitHub icon">
+
+
+*_all in progress_
 
 ***********  
 
 ### CODE EXAMPLE
+
+Complete the function powerOfTwo that determines if a given non-negative integer is a power of two. From the corresponding Wikipedia entry:
+>a power of two is a number of the form 2n where n is an integer, i.e. the result of exponentiation with number two as the base and integer n as the exponent.
+
 ```  
-function multiply(a, b){  
- return a * b}  
-let result = multiply(3, 5);  
-console.log(result);  
+function powerOfTwo(n) {
+  return (n > 0) && ((n & (n-1)) === 0)
+}
 ```  
 
 ***********  
 
 ### EDUCATION
 * Vitebsk State Order of Peoples' Friendship Medical University
-* [RS Schools «JS-FE Pre School» Course](https://app.rs.school) _in progress_
+* RS Schools «JS-FE Pre School» Course
+* [RS Schools «JavaScript / Front-end» Course](https://rs.school/courses/javascript-ru) _in progress_
 
 ***********
 
-### ENGLISH level
+### ENGLISH LEVEL
 Intermediate to Upper-Intermediate (B1-B2)
 
 ***********  
 
-[![logo](img/logo_rs_text.svg)](https://rs.school/)
+[![logo](img/rs_school-og.svg)](https://rs.school/)
