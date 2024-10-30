@@ -1,10 +1,10 @@
-# LIUBOU LEVITSKAYA <img src="img/icon.svg" alt="icon" style="display:inline; width:75px; height:40px;">
+# LIUBOU LEVITSKAYA <img src="img/code.svg" height="25" width="35">
 
 ### CONTACTS
 * __Location:__ Minsk, Belarus
 * __Discord:__ Liubou Levitskaya(@L-Liubou)
 * __GitHub:__ [L-Liubou](https://github.com/L-Liubou)
-* __Email:__ <lyubasaraeva@gmail.com>
+* __Telegram:__ [liubou_levitskaya](https://t.me/liubou_levitskaya)
 
 ************
 
@@ -14,12 +14,11 @@ As an aspiring frontend developer, my goal is to translate ideas and requirement
 ***********  
 
 ### MY SKILLS
-* HTML5
-* CSS3
-* JavaScript (Basics)
-* Git/GitHub
 
-\* _all in progress_
+<img src="img/html5.svg" width="120" height="80" alt="HTML icon"> <img src="img/css3.svg" width="120" height="80" alt="CSS icon"> <img src="img/js.svg" width="120" height="86" alt="Javascript icon"> <img src="img/git.svg" width="120" height="90" alt="GitHub icon">
+
+
+*_all in progress_
 
 ***********  
 
@@ -43,9 +42,9 @@ function powerOfTwo(n) {
 
 ***********
 
-### ENGLISH level
+### ENGLISH LEVEL
 Intermediate to Upper-Intermediate (B1-B2)
 
 ***********  
 
-[![logo](img/logo_rs_text.svg)](https://rs.school/)
+[![logo](img/rs_school-og.svg)](https://rs.school/)
