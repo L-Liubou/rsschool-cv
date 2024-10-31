@@ -35,7 +35,7 @@ body {
 }
 
 .header__menu-item {
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
 .header__menu-item:hover {
@@ -65,7 +65,7 @@ body {
     font-size: 70px;
     font-weight: bold;
     line-height: 70px;
-    color:#f8cd1e;
+    color: #f8cd1e;
     padding: 10px 0;
     pointer-events: none;
 }
@@ -82,10 +82,10 @@ body {
 }
 
 .header__photo {
-    width: 300px; 
+    width: 300px;
     height: 300px;
-    border-radius: 50%; 
-    object-fit: cover; 
+    border-radius: 50%;
+    object-fit: cover;
     box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.4);
 }
 
@@ -171,8 +171,8 @@ body {
     list-style: none;
 }
 
-.about__education-item, 
-.about__quality, 
+.about__education-item,
+.about__quality,
 .about__language {
     margin-bottom: 10px;
     font-weight: 200;
@@ -241,7 +241,7 @@ body {
 
 .skill__circle:hover .skill__text {
     color: #ffffff;
-} 
+}
 
 .skill__name {
     font-weight: 300;
@@ -282,10 +282,10 @@ body {
     .about__qualities,
     .about__education,
     .about__languages {
-     width: 100vw;
-     text-align: center;
+        width: 100vw;
+        text-align: center;
     }
- }
+}
 
 .projects__title,
 .contact-me__title {
@@ -321,10 +321,10 @@ body {
 }
 
 .project__image {
-    width: 100%;       
-    max-width: 400px; 
-    height: auto; 
-    transition: box-shadow 0.5s ease; 
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    transition: box-shadow 0.5s ease;
 }
 
 .project__image:hover {
@@ -345,7 +345,7 @@ body {
 }
 
 .projects__button:hover {
-    background-color:#f8cd1f;
+    background-color: #f8cd1f;
     border: 2px solid #f8cd1f;
 }
 
@@ -356,7 +356,7 @@ body {
 
     .projects__container {
         flex-direction: column;
-        padding-bottom: 0 ;
+        padding-bottom: 0;
     }
 
     .projects__title {
@@ -382,10 +382,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding-bottom: 40px;
 }
-    
+
 .contact-me__container {
     display: flex;
     justify-content: center;
@@ -396,7 +396,7 @@ body {
 
 .contact-me__input,
 .contact-me__textarea {
-    width: 315px; 
+    width: 315px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -408,13 +408,13 @@ body {
 
 .contact-me__input:focus,
 .contact-me__textarea:focus {
-    outline: none; 
-    border: none; 
+    outline: none;
+    border: none;
 }
 
 .contact-me__input:focus::placeholder,
 .contact-me__textarea:focus::placeholder {
-    color: transparent; 
+    color: transparent;
 }
 
 .contact-me__button {
@@ -429,7 +429,7 @@ body {
 }
 
 .contact-me__button:hover {
-    background-color:#f8cd1f;
+    background-color: #f8cd1f;
 }
 
 @media (max-width: 685px) {
@@ -457,7 +457,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    background-color:#000000;
+    background-color: #000000;
     color: white;
 }
 
