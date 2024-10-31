@@ -107,6 +107,11 @@ body {
     fill: #f8cd1f;
 }
 
+.contact__icon {
+    width: 35px;
+    height: 35px;
+}
+
 @media (max-width: 734px) {
     .header__profile {
         flex-direction: column-reverse;
