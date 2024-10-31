@@ -3,127 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;400;900&display=swap" rel="stylesheet">
     <title>CV Liubou Levitskaya</title>
+    <link rel="icon" href="assets/svg/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="container">
     <header class="header">
         <nav>
-            <ul class="menu-list">
-                <li><a class="menu-link" href="#about-me">About me</a></li>
-                <li><a class="menu-link" href="#skills">My skills</a></li>
-                <li><a class="menu-link" href="#education">Education</a></li>
-                <li><a class="menu-link" href="#languages">Languages</a></li>
-                <li><a class="menu-link" href="#code-example">Code example</a></li>
-                <li><a class="menu-link" href="#contacts">Contacts</a></li>
+            <ul class="header__menu-list">
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="#about-me__details">About me</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="#about__skills">Skills</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="#projects">Projects</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="#contact-me">Contact me</a>
+                </li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <section class="profile-section" id="profile">
-            <img class="profile-photo" src="assets/img/my_photo_for_cv.jpg" alt="My photo for CV">
-            <div class="profile-info">
-                <h1 class="profile-title">Liubou<br> Levitskaya</h1>
-                <span class="profile-role">Junior Front-end Developer</span>
+        <section class="header__profile">
+            <div class="header__info">
+                <span class="header__name">Liubou Levitskaya</span>
+                <h1 class="header__profession">Front End <br> Developer<span class="pipe">|</span></h1>
+                <span class="header__location">Minsk, Belarus</span> 
+                <div class="contact__links">
+                    <a href="mailto:lyubasaraeva@gmail.com" class="contact__link">
+                        <svg class="contact__icon" fill="#000000" width="35px" height="35px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M19,4 C20.6568542,4 22,5.34314575 22,7 L22,17 C22,18.6568542 20.6568542,20 19,20 L5,20 C3.34314575,20 2,18.6568542 2,17 L2,7 C2,5.34314575 3.34314575,4 5,4 L19,4 Z M20,7.328 L12.6585046,13.7525767 C12.3128975,14.054983 11.8110564,14.0801835 11.4394103,13.8281783 L11.3414954,13.7525767 L4,7.329 L4,17 C4,17.5522847 4.44771525,18 5,18 L19,18 C19.5522847,18 20,17.5522847 20,17 L20,7.328 Z M18.48,6 L5.518,6 L12,11.6712318 L18.48,6 Z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/L-Liubou" class="contact__link" target="_blank">
+                        <svg class="contact__icon" width="35px" height="35px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path fill="none" d="M0 0h24v24H0z"/>
+                                <path d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 0 0 6.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 0 1 2.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0 0 22 12c0-5.525-4.475-10-10-10z"/>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="https://discord.com/users/1227285369670864989" class="contact__link" target="_blank">
+                        <svg class="contact__icon" width="35px" height="35px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path fill="none" d="M0 0h24v24H0z"/>
+                                <path fill-rule="nonzero" d="M10.076 11c.6 0 1.086.45 1.075 1 0 .55-.474 1-1.075 1C9.486 13 9 12.55 9 12s.475-1 1.076-1zm3.848 0c.601 0 1.076.45 1.076 1s-.475 1-1.076 1c-.59 0-1.075-.45-1.075-1s.474-1 1.075-1zm4.967-9C20.054 2 21 2.966 21 4.163V23l-2.211-1.995-1.245-1.176-1.317-1.25.546 1.943H5.109C3.946 20.522 3 19.556 3 18.359V4.163C3 2.966 3.946 2 5.109 2H18.89zm-3.97 13.713c2.273-.073 3.148-1.596 3.148-1.596 0-3.381-1.482-6.122-1.482-6.122-1.48-1.133-2.89-1.102-2.89-1.102l-.144.168c1.749.546 2.561 1.334 2.561 1.334a8.263 8.263 0 0 0-3.096-1.008 8.527 8.527 0 0 0-2.077.02c-.062 0-.114.011-.175.021-.36.032-1.235.168-2.335.662-.38.178-.607.305-.607.305s.854-.83 2.705-1.376l-.103-.126s-1.409-.031-2.89 1.103c0 0-1.481 2.74-1.481 6.121 0 0 .864 1.522 3.137 1.596 0 0 .38-.472.69-.871-1.307-.4-1.8-1.24-1.8-1.24s.102.074.287.179c.01.01.02.021.041.031.031.022.062.032.093.053.257.147.514.262.75.357.422.168.926.336 1.513.452a7.06 7.06 0 0 0 2.664.01 6.666 6.666 0 0 0 1.491-.451c.36-.137.761-.337 1.183-.62 0 0-.514.861-1.862 1.25.309.399.68.85.68.85z"/>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="https://t.me/liubou_levitskaya" class="contact__link" target="_blank">
+                        <svg class="contact__icon" fill="#000000" width="35px" height="35px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 26.070313 3.996094 C 25.734375 4.011719 25.417969 4.109375 25.136719 4.21875 L 25.132813 4.21875 C 24.847656 4.332031 23.492188 4.902344 21.433594 5.765625 C 19.375 6.632813 16.703125 7.757813 14.050781 8.875 C 8.753906 11.105469 3.546875 13.300781 3.546875 13.300781 L 3.609375 13.277344 C 3.609375 13.277344 3.25 13.394531 2.875 13.652344 C 2.683594 13.777344 2.472656 13.949219 2.289063 14.21875 C 2.105469 14.488281 1.957031 14.902344 2.011719 15.328125 C 2.101563 16.050781 2.570313 16.484375 2.90625 16.722656 C 3.246094 16.964844 3.570313 17.078125 3.570313 17.078125 L 3.578125 17.078125 L 8.460938 18.722656 C 8.679688 19.425781 9.949219 23.597656 10.253906 24.558594 C 10.433594 25.132813 10.609375 25.492188 10.828125 25.765625 C 10.933594 25.90625 11.058594 26.023438 11.207031 26.117188 C 11.265625 26.152344 11.328125 26.179688 11.390625 26.203125 C 11.410156 26.214844 11.429688 26.21875 11.453125 26.222656 L 11.402344 26.210938 C 11.417969 26.214844 11.429688 26.226563 11.441406 26.230469 C 11.480469 26.242188 11.507813 26.246094 11.558594 26.253906 C 12.332031 26.488281 12.953125 26.007813 12.953125 26.007813 L 12.988281 25.980469 L 15.871094 23.355469 L 20.703125 27.0625 L 20.8125 27.109375 C 21.820313 27.550781 22.839844 27.304688 23.378906 26.871094 C 23.921875 26.433594 24.132813 25.875 24.132813 25.875 L 24.167969 25.785156 L 27.902344 6.65625 C 28.007813 6.183594 28.035156 5.742188 27.917969 5.3125 C 27.800781 4.882813 27.5 4.480469 27.136719 4.265625 C 26.769531 4.046875 26.40625 3.980469 26.070313 3.996094 Z M 25.96875 6.046875 C 25.964844 6.109375 25.976563 6.101563 25.949219 6.222656 L 25.949219 6.234375 L 22.25 25.164063 C 22.234375 25.191406 22.207031 25.25 22.132813 25.308594 C 22.054688 25.371094 21.992188 25.410156 21.667969 25.28125 L 15.757813 20.75 L 12.1875 24.003906 L 12.9375 19.214844 C 12.9375 19.214844 22.195313 10.585938 22.59375 10.214844 C 22.992188 9.84375 22.859375 9.765625 22.859375 9.765625 C 22.886719 9.3125 22.257813 9.632813 22.257813 9.632813 L 10.082031 17.175781 L 10.078125 17.15625 L 4.242188 15.191406 L 4.242188 15.1875 C 4.238281 15.1875 4.230469 15.183594 4.226563 15.183594 C 4.230469 15.183594 4.257813 15.171875 4.257813 15.171875 L 4.289063 15.15625 L 4.320313 15.144531 C 4.320313 15.144531 9.53125 12.949219 14.828125 10.71875 C 17.480469 9.601563 20.152344 8.476563 22.207031 7.609375 C 24.261719 6.746094 25.78125 6.113281 25.867188 6.078125 C 25.949219 6.046875 25.910156 6.046875 25.96875 6.046875 Z"/></svg>
+                     </a>
+                </div>
             </div>
+            <img class="header__photo" src="assets/img/photo.JPG" alt="My photo">
         </section>
-        <div class="main-container">
-            <section class="section" id="skills">
-                <h2 class="section-title">My skills</h2>
-                <ul class="skills-list">
-                    <li>
-                        <img src="assets/svg/html-svgrepo-com.svg" alt="HTML icon">
-                        <span>HTML</span>
-                    </li>
-                    <li>
-                        <img src="assets/svg/css-svgrepo-com.svg" alt="CSS icon">
-                        <span>CSS</span>
-                    </li>
-                    <li>
-                        <img src="assets/svg/js-svgrepo-com.svg" alt="JS icon">
-                        <span>JavaScript (Basics)</span>
-                    </li>
-                    <li>
-                        <img src="assets/svg/github-svgrepo-com.svg" alt="GitHub icon">
-                        <span>Git/GitHub</span>
-                    </li>
-                </ul>
-            </section>
-            <section class="section" id="about-me">
-                <h2 class="section-title">About me</h2>
-                <p class="summary-text">
-                    After graduating from medical school, I worked in a pharmacy for six years. After that, I decided to develop in another direction. The choice fell on front-end development. I hope this course will help me acquire the necessary knowledge and skills for further development in this area.
+    </header>
+    <section class="about-me">
+        <div class="about-me__info">
+            <img src="assets/img/Work.JPG" alt="Working process">
+            <div class="about-me__details" id="about-me__details">
+                <h2 class="about-me__title">About Me</h2>
+                <p class="about-me__description">
+                As an aspiring frontend developer, my goal is to translate ideas and requirements into well-thought-out, easily recognizable interfaces.
+                Working at the intersection of creativity and technology inspires me, where programming, design, and user experience come together to create user-friendly and attractive products.
+                I strive to find the balance between aesthetics, functionality, and simplicity, ensuring that every element of interaction is meaningful and effective.
                 </p>
-            </section>
-            <section class="section" id="languages">
-                <h2 class="section-title">Languages</h2>
-                <ul class="languages-list">
-                    <li>Russian/Belarusian - native</li>
-                    <li>English - Intermediate to Upper-Intermediate (B1-B2)</li>
-                </ul>
-            </section>
-            <section class="section" id="education">
-                <h2 class="section-title">Education</h2>
-                <ul class="education-list">
-                    <li>Vitebsk State Medical University</li>
-                    <li>
-              <span>During the course
-                <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank" class="course-link">JavaScript / Front-end Course Pre-school RU</a>
-              </span>
-                    </li>
-                </ul>
-            </section>
-            <section class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
-                <ul class="contacts-list">
-                    <li>
-                        <a class="contact-link" href="https://maps.app.goo.gl/DP6XJBJHxguC8WJz7" target="_blank">
-                            <img src="assets/svg/map-tag-svgrepo-com.svg" alt="Location icon">
-                            <span>Minsk, Belarus</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="contact-link" href="https://discordapp.com/users/1227285369670864989" target="_blank">
-                            <img src="assets/svg/discord-svgrepo-com.svg" alt="Discord icon">
-                            <span>Liubou Levitskaya</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="contact-link" href="mailto:lyubasaraeva@gmail.com" target="_blank">
-                            <img src="assets/svg/at-svgrepo-com.svg" alt="Email icon">
-                            <span>lyubasaraeva@gmail.com</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="contact-link" href="https://t.me/liubou_levitskaya" target="_blank">
-                            <img src="assets/svg/telegram-svgrepo-com.svg" alt="Telegram icon">
-                            <span>Liubou Levitskaya</span>
-                        </a>
-                    </li>
-                </ul>
-            </section>
-            <section class="section" id="code-example">
-                <h2 class="section-title">Code example</h2>
-                <pre class="code-block"><code>function multiply(a, b) {
-  return a * b;
-}
-let result = multiply(3, 5);</code></pre>
-            </section>
+            </div>
         </div>
-    </main>
+        <div class="about__summary">
+            <div class="about__qualities">
+                <h3 class="about__subtitle">Strengths</h3>
+                <ul class="about__qualities-list">
+                    <li class="about__quality">Empathy</li>
+                    <li class="about__quality">Critical self-assessment</li>
+                    <li class="about__quality">Attention to details</li>
+                </ul>
+            </div>
+            <div class="about__languages">
+                <h3 class="about__subtitle">Languages</h3>
+                <ul class="about__languages-list">
+                    <li class="about__language">Russian - native</li>
+                    <li class="about__language">Belarusian - native</li>
+                    <li class="about__language">English - Intermediate<br> to Upper-Intermediate (B1-B2)</li>
+                </ul>
+            </div>
+            <div class="about__education">
+                <h3 class="about__subtitle">Education</h3>
+                <ul class="about__education-list">
+                    <li class="about__education-item">
+                        Vitebsk State Medical University
+                    </li>
+                    <li class="about__education-item">
+                        RS Schools «JS-FE Pre School» Course
+                    </li>
+                    <li class="about__education-item">
+                        <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                            RS Schools «JavaScript / Front-end» Course<br> (in progress)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="about__skills" id="about__skills">
+            <h3 class="about__subtitle">Technical Skills</h3>
+            <div class="skills__container">
+                <div class="skill">
+                    <div class="skill__circle" style="--percentage: 78;">
+                        <div class="skill__text">78%</div>
+                    </div>
+                    <span class="skill__name">HTML</span>
+                </div>
+                <div class="skill">
+                    <div class="skill__circle" style="--percentage: 70;">
+                        <div class="skill__text">70%</div>
+                    </div>
+                    <span class="skill__name">CSS</span>
+                </div>
+                <div class="skill">
+                    <div class="skill__circle" style="--percentage: 60;">
+                        <div class="skill__text">60%</div>
+                    </div>
+                    <span class="skill__name">JavaScript</span>
+                </div>
+                <div class="skill">
+                    <div class="skill__circle" style="--percentage: 56;">
+                        <div class="skill__text">56%</div>
+                    </div>
+                    <span class="skill__name">Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="projects__title">MY PROJECTS</h2>
+        <div class="projects__container">
+            <div class="projects__item">
+                <a href="https://rolling-scopes-school.github.io/l-liubou-JSFEPRESCHOOL2024Q2/audio-player/" target="_blank">
+                    <img src="assets/img/Audio_player_screen.png" alt="Project Screenshot" class="project__image">
+                </a>
+                <h3 class="projects__name">Audio Player</h3>
+                <p class="projects__description">
+                    A music player that allows you to play music tracks one by one or to scroll through them by clicking the buttons.
+                </p>
+                <a href="https://rolling-scopes-school.github.io/l-liubou-JSFEPRESCHOOL2024Q2/audio-player/" target="_blank" class="projects__button">View project</a>
+            </div>
+            <div class="projects__item">
+                <a href="https://rolling-scopes-school.github.io/l-liubou-JSFEPRESCHOOL2024Q2/image-gallery/" target="_blank">
+                    <img src="assets/img/Image_gallery_screen.png" alt="Project Screenshot" class="project__image">
+                </a>
+                <h3 class="projects__name">Image Gallery</h3>
+                <p class="projects__description">
+                    An application that displays photos obtained from the API, entering a search query changes the photos that are displayed in the application.
+                </p>
+                <a href="https://rolling-scopes-school.github.io/l-liubou-JSFEPRESCHOOL2024Q2/image-gallery/" target="_blank" class="projects__button">View project</a>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me" id="contact-me">
+        <h2 class="contact-me__title">GET IN TOUCH</h2>
+        <form class="contact-me__form" action="#" method="POST">
+        <div class="contact-me__container">
+            <div class="inputs">
+                <div class="input-name">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" class="contact-me__input" placeholder="NAME" required>
+                </div>
+                <div class="input-email">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" class="contact-me__input" placeholder="EMAIL" required>
+                </div>
+            </div>
+            <div class="message">
+                <label for="message"></label>
+                <textarea id="message" name="message" class="contact-me__textarea" rows="6" placeholder="MESSAGE" required></textarea>
+            </div>
+        </div>
+        <button type="submit" class="contact-me__button">SUBMIT</button>
+        </form>
+    </section>
     <footer class="footer">
-        <a href="https://github.com/L-Liubou" target="_blank">
-            <img class="footer-icon" src="assets/svg/github-svgrepo-com.svg" alt="GitHub icon">
-        </a>
-        <span>&copy; The Rolling Scopes 2024</span>
         <a href="https://app.rs.school/" target="_blank">
-            <img class="footer-logo" src="assets/svg/rss.svg" alt="RSschool logo">
+            <img class="footer-logo" src="assets/svg/rs_school-og.svg" alt="RSschool logo">
         </a>
-    </footer>
-</div>
+        <span>The Rolling Scopes, 2024</span>
+    </footer>   
 </body>
 </html>
